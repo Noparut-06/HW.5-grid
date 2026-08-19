@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สินค้าและสมาชิก - AURA Acoustics</title>
+    <!-- ลิงก์ไฟล์ CSS จากโฟลเดอร์ css -->
+    <link rel="stylesheet" href="css/gridstyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/header.jpg" alt="AURA Acoustics Header">
+        </header>
+        
+        <nav>
+            <a href="index.html">หน้าแรก</a>
+            <a href="product.html">สินค้าและสมัครสมาชิก</a>
+        </nav>
+        
+        <main>
+            <h1>สินค้าแนะนำ</h1>
+            <div class="product-gallery">
+                <div>
+                    <img src="images/product1.jpg" alt="สินค้า 1" class="img-responsive">
+                    <h3 style="margin-top: 10px;">AURA Pro Headset</h3>
+                    <p>หูฟังไร้สายระบบเสียงคมชัด</p>
+                </div>
+                <div>
+                    <img src="images/product2.jpg" alt="สินค้า 2" class="img-responsive">
+                    <h3 style="margin-top: 10px;">AURA Cyberpunk Edition</h3>
+                    <p>ดีไซน์ล้ำสมัยแห่งโลกอนาคต</p>
+                </div>
+            </div>
+            
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+            
+            <h2>ฟอร์มสมัครสมาชิก</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="fullname">ชื่อ - นามสกุล:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="member-type">ประเภทสมาชิก:</label>
+                    <select id="member-type" name="member-type">
+                        <option value="Premium">Premium</option>
+                        <option value="VIP">VIP</option>
+                        <option value="Normal">Normal</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit">ลงทะเบียน</button>
+            </form>
+        </main>
+        
+        <sidebar>
+            <h3>สิทธิพิเศษสมาชิก</h3>
+            <ul style="margin-left: 20px; line-height: 1.8;">
+                <li><strong>Premium:</strong> รับส่วนลด 20% และสิทธิ์เข้างานอีเวนท์ฟรี</li>
+                <li><strong>VIP:</strong> รับส่วนลด 10% จัดส่งฟรีทุกรายการ</li>
+                <li><strong>Normal:</strong> สะสมแต้มเพื่อแลกของรางวัล</li>
+            </ul>
+        </sidebar>
+        
+        <footer>
+            <img src="images/footer.jpg" alt="Footer Copyright">
+        </footer>
+    </div>
+</body>
+</html>
